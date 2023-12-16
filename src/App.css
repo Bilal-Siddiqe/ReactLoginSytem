@@ -32,6 +32,29 @@
   from {
     transform: rotate(0deg);
   }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.box {
+  margin: auto;
+  height: 100px;
+  width: 100px;
+  border: 2px dashed red;
+  border-radius: 100px;
+  transform: rotate(0deg);
+  animation-name: loader;
+  animation-duration: 10s ;
+  animation-iteration-count: infinite;
+}
+
+@keyframes loader {
+  from {
+    transform: rotate(0deg);
+  }
   to {
     transform: rotate(360deg);
   }
